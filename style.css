@@ -1,0 +1,96 @@
+/* General */
+body {
+  font-family: 'Noto Naskh Arabic', sans-serif;
+  margin: 0;
+  background: #f8f8f8;
+  color: #222;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 1rem;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Breaking News */
+.breaking {
+  background: #ff0000;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* News Section */
+.news-section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.news-section h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid #004080;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.news-card {
+  display: flex;
+  background: white;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.news-card img {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+}
+.news-card div {
+  padding: 10px;
+}
+.news-card h3 {
+  margin-top: 0;
+  color: #004080;
+}
+.news-card a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.news-card a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
